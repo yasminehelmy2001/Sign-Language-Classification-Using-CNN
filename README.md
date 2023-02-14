@@ -8,8 +8,11 @@
 
 **Model 1 Hyper Parameters:**
 One Convolution Layer (Filter 3x3)
+
 One Pooling Layer (Filter 2x2)
+
 One Hidden Layer of 512 Neurons
+
 Output Layer of 24 Neurons For 24 Letters
 
 **Model 2 Hyper Parameters:**
