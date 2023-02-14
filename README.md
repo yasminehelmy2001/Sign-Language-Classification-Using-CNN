@@ -7,37 +7,26 @@
 **Data Description:** Our data consists of 24 letters of the English sign language pictures. Their pixels were set into CSV files.
 
 **Model 1 Hyper Parameters:**
-One Convolution Layer (Filter 3x3)
-
-One Pooling Layer (Filter 2x2)
-
-One Hidden Layer of 512 Neurons
-
-Output Layer of 24 Neurons For 24 Letters
+1) One Convolution Layer (Filter 3x3)
+2) One Pooling Layer (Filter 2x2)
+3) One Hidden Layer of 512 Neurons
+4) Output Layer of 24 Neurons For 24 Letters
 
 **Model 2 Hyper Parameters:**
-Three Convolution Layers (Filter 3x3)
-
-Three Pooling Layers (Filter 2x2)
-
-One Hidden Layer of 512 Neurons
-
-Output Layer of 24 Neurons For 24 Letters
+1) Three Convolution Layers (Filter 3x3)
+2) Three Pooling Layers (Filter 2x2)
+3) One Hidden Layer of 512 Neurons
+4) Output Layer of 24 Neurons For 24 Letters
 
 **Model 3 Hyper Parameters:**
-Three Convolution Layers (Filter 3x3)
-
-Three Pooling Layers (Filter 2x2)
-
-Two Hidden Layers of 512 Neurons & 256 Neurons
-
-Output Layer of 24 Neurons For 24 Letters
+1) Three Convolution Layers (Filter 3x3)
+2) Three Pooling Layers (Filter 2x2)
+3) Two Hidden Layers of 512 Neurons & 256 Neurons
+4) Output Layer of 24 Neurons For 24 Letters
 
 **Comparison:**
-MODEL ONE: Although the validation accuracy increased with epochs, it only reached 0.8779.
-
-MODEL TWO:Increasing the number of covolution & pooling layers has affected the validation accuracy that it jumped to 0.9497.
-
-MODEL THREE: Adding more hidden layers i.e More neurons, the validation accuracy has shown greater improvement. It rose to 0.9780.
+1) MODEL ONE: Although the validation accuracy increased with epochs, it only reached 0.8779.
+2) MODEL TWO:Increasing the number of covolution & pooling layers has affected the validation accuracy that it jumped to 0.9497.
+3) MODEL THREE: Adding more hidden layers i.e More neurons, the validation accuracy has shown greater improvement. It rose to 0.9780.
 
 This has proved that as the number of layers, and filters increase, also as different activation functions are put to trial with different types of data, the accuracy increases.
